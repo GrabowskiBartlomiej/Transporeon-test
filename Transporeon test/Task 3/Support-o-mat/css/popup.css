@@ -1,0 +1,5 @@
+.list-group-item{
+	margin-top: -1px !important;
+    margin-bottom: -1px !important;
+	padding: 10px 20px;
+}

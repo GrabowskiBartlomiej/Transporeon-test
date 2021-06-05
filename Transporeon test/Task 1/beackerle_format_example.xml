@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dransbord>
+	<EureDransbordNummr>670000001</EureDransbordNummr>
+	<Uffpassa>musch</Uffpassa>
+	<Liefrunga>
+		<Liefrung>
+			<DemseiLiefrungsNummr>8100000009</DemseiLiefrungsNummr>
+			<WasDaReiKommt>B7</WasDaReiKommt>
+			<AlleBaramedrZammaZaehlt>11</AlleBaramedrZammaZaehlt>
+		</Liefrung>
+		<Liefrung>
+			<DemseiLiefrungsNummr>8100000010</DemseiLiefrungsNummr>
+			<WasDaReiKommt>A4</WasDaReiKommt>
+			<AlleBaramedrZammaZaehlt>6</AlleBaramedrZammaZaehlt>
+		</Liefrung>
+	</Liefrunga>
+</Dransbord>

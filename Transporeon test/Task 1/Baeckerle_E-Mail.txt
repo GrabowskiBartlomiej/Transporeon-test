@@ -1,0 +1,26 @@
+Absender: braun@baeckerle.swabia
+Betreff: URGENT!! New format
+Attachement: beackerle_format_example.xml
+
+Dear Transporeon Team,
+
+Our parameters should be filled from the TRANSPOREON standard format as such:
+
+<EureDransbordNummr>
+	Should come from attribute „id“ from /tisys/tour/.
+<Uffpassa>
+	In case the weight is greater than 20000 in parameter /tisys/tour/tkn_weight, we want the fix value "musch", otherwise "muschnet".
+<Liefrung> und <Leifrunga>
+	Should work anaolg to „<shipment> and <shipments> in the original format.
+<DemseiLiefrungsNummr>
+	Should be filled from /tisys/tour/shipments/shipment/number.
+<WasDaReiKommt>
+	In case there is the value “shippingType” in one of these: /tisys/tour/shipments/shipment/parameters/parameter/qualifier then the first two digits of the corresponding content from the "Value" element should be taken  
+<AlleBaramedrZammaZaehlt>
+	Should contain the count of all /tisys/tour/shipments/shipment/parameters/parameter elements that belong to the same shipment.
+
+We have attached an example of what we expect as export to our system based on transport 670000001.
+
+All the best from Stuttgart,
+
+Florentina Braun.

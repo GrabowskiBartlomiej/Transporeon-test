@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tisys>
+	<tour id = "670000001">
+		<timestamp>2019-12-24 12:10:05</timestamp>
+		<changed>0</changed>
+		<number>0302000781</number>
+		<tpw_link>https://login.transporeon.com/?jumpToTransport=true&amp;transportId=670000001</tpw_link>
+		<status>N</status>
+		<qualifier>tour.accepted</qualifier>
+		<partial_accept>0</partial_accept>
+		<company_id>691337</company_id>
+		<company_name>Bäckerle</company_name>
+		<disponent_firstname>TP</disponent_firstname>
+		<disponent_lastname>XP Service Account</disponent_lastname>
+		<disponent_id>926433</disponent_id>
+		<owner>MUO</owner>
+		<price_basic>700.00</price_basic>
+		<price_additional1>4.00</price_additional1>
+		<price_additional2>8.00</price_additional2>
+		<price_additional3>12.00</price_additional3>
+		<currency_id>EUR</currency_id>
+		<assigned_carrier_id>600650</assigned_carrier_id>
+		<assigned_carrier_name>DHL</assigned_carrier_name>
+		<assigned_creditor_number>400052</assigned_creditor_number>
+		<tkn_weight>25000</tkn_weight>
+		<parameter>
+			<qualifier>slotrelevant</qualifier>
+			<value>true</value>
+			<description>Slot relevancy</description>
+		</parameter>
+
+		<shipments>
+			<shipment id = "200000099">
+				<index>0</index>
+				<tour_id>670000001</tour_id>
+				<number>8100000009</number>
+				<comment>Unloading hours: Mo:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Di:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Mi:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Do:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Fr:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Unloading point: .&lt;br&gt;Loading Point Start time: 06:00:00&lt;br&gt;Loading Point End time: 21:00:00&lt;br&gt;Loading point information:&lt;br&gt;&lt;br&gt;Tank cleaning is required according to the "Maultaschen Industry cleaning&lt;br&gt;specification".&lt;br&gt;</comment>
+				<comment_plain_text>Unloading hours: Mo:  08:00 - 16:00 | 00:00 - 00:00\nDi:  08:00 - 16:00 | 00:00 - 00:00\nMi:  08:00 - 16:00 | 00:00 - 00:00\nDo:  08:00 - 16:00 | 00:00 - 00:00\nFr:  08:00 - 16:00 | 00:00 - 00:00\nUnloading point: .\nLoading Point Start time: 06:00:00\nLoading Point End time: 21:00:00\nLoading point information:\n\nTank cleaning is required according to the "Maultaschen Industry cleaning\nspecification".\n</comment_plain_text>
+				<items>
+					<item id = "">
+						<pos_number>000010</pos_number>
+						<pos_index>0</pos_index>
+						<description>Vegetarisch, BULK</description>
+						<short_description/>
+						<material_number>17777A00</material_number>
+						<quantities>
+							<quantity>
+								<qualifier>dimensionWeightNet</qualifier>
+								<unit>KG</unit>
+								<value>13000.0</value>
+							</quantity>
+							<quantity>
+								<qualifier>dimensionWeightGross</qualifier>
+								<unit>KG</unit>
+								<value>13000.0</value>
+							</quantity>
+						</quantities>
+						<parameters>
+							<parameter>
+								<qualifier>material</qualifier>
+								<value>17607A00</value>
+								<description/>
+							</parameter>
+							<parameter>
+								<qualifier>plantCode</qualifier>
+								<value>MUO</value>
+								<description/>
+							</parameter>
+						</parameters>
+					</item>
+				</items>
+				<station id = "187526" type = "loading">
+					<avis/>
+					<description/>
+					<company_name>Bäckerle GmbH</company_name>
+					<shipper_location_number/>
+					<address>Feuerbachstr 50</address>
+					<zip>70469</zip>
+					<city>Stuttgart</city>
+					<region/>
+					<country_id>DE</country_id>
+					<loading_name/>
+					<loadingramp/>
+					<from_date>2020-01-08</from_date>
+					<from_time>00:00:00</from_time>
+					<until_date>2020-01-08</until_date>
+					<until_time>00:00:00</until_time>
+					<fixed_date_loading>2020-01-08</fixed_date_loading>
+					<transportunit_name/>
+					<transportunit_count>0</transportunit_count>
+					<transportunit_pileable>false</transportunit_pileable>
+					<comment>isch fei dringend, gell?</comment>
+					<comment_plain_text>Dies ist eine wichtige Lieferung</comment_plain_text>
+				</station>
+				<station id = "115099" type = "unloading">
+					<avis/>
+					<description/>
+					<company_name>AST PLASTIC PACKAGING BENELUX BVBA</company_name>
+					<shipper_location_number/>
+					<address>Schleifmühleweg 36</address>
+					<zip>72070</zip>
+					<city>Tübingen</city>
+					<region>01</region>
+					<country_id>DE</country_id>
+					<loading_name/>
+					<loadingramp/>
+					<from_date>2020-01-10</from_date>
+					<from_time>00:00:00</from_time>
+					<until_date>2020-01-10</until_date>
+					<until_time>00:00:00</until_time>
+					<fixed_date_unloading>2020-01-10</fixed_date_unloading>
+					<transportunit_name/>
+					<transportunit_count>0</transportunit_count>
+					<transportunit_pileable>false</transportunit_pileable>
+					<comment/>
+					<comment_plain_text/>
+				</station>
+				<parameters>
+					<parameter>
+						<qualifier>soldTo</qualifier>
+						<value>0000202266</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>salesorderNumber</qualifier>
+						<value>5010036010</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>purchaseOrderNumber</qualifier>
+						<value>47B841FH/1</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>shipmentType</qualifier>
+						<value>Z010</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>shippingCondition</qualifier>
+						<value>TL</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>shippingType</qualifier>
+						<value>B7 - Quadratisch</value>
+						<description>shippingType</description>
+					</parameter>
+					<parameter>
+						<qualifier>dispatch.status.registration</qualifier>
+						<value>2000-01-01 00:00:00</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>dispatch.status.loading.begin</qualifier>
+						<value>2000-01-01 00:00:00</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>dispatch.status.loading.end</qualifier>
+						<value>2000-01-01 00:00:00</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>dispatch.status.dispatched</qualifier>
+						<value>2000-01-01 00:00:00</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>dispatch.status.transport.begin</qualifier>
+						<value>2000-01-01 00:00:00</value>
+						<description/>
+					</parameter>
+				</parameters>
+			</shipment>
+			<shipment id = "200000100">
+				<index>1</index>
+				<tour_id>670000001</tour_id>
+				<number>8100000010</number>
+				<comment>Unloading hours: Mo:  08:00 - 16:0+0 | 00:00 - 00:00&lt;br&gt;Di:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Mi:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Do:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Fr:  08:00 - 16:00 | 00:00 - 00:00&lt;br&gt;Unloading point: .&lt;br&gt;Loading Point Start time: 06:00:00&lt;br&gt;Loading Point End time: 21:00:00&lt;br&gt;Loading point information:&lt;br&gt;&lt;br&gt;Tank cleaning is required according to the "Maultaschen Industry cleaning&lt;br&gt;specification".&lt;br&gt;</comment>
+				<comment_plain_text>Unloading hours: Mo:  08:00 - 16:00 | 00:00 - 00:00\nDi:  08:00 - 16:00 | 00:00 - 00:00\nMi:  08:00 - 16:00 | 00:00 - 00:00\nDo:  08:00 - 16:00 | 00:00 - 00:00\nFr:  08:00 - 16:00 | 00:00 - 00:00\nUnloading point: .\nLoading Point Start time: 06:00:00\nLoading Point End time: 21:00:00\nLoading point information:\n\nTank cleaning is required according to the "Maultaschen Industry cleaning\nspecification".\n</comment_plain_text>
+				<items>
+					<item id = "">
+						<pos_number>000010</pos_number>
+						<pos_index>0</pos_index>
+						<description>Rind, BULK</description>
+						<short_description/>
+						<material_number>17777A01</material_number>
+						<quantities>
+							<quantity>
+								<qualifier>dimensionWeightNet</qualifier>
+								<unit>KG</unit>
+								<value>12000.0</value>
+							</quantity>
+							<quantity>
+								<qualifier>dimensionWeightGross</qualifier>
+								<unit>KG</unit>
+								<value>12000.0</value>
+							</quantity>
+						</quantities>
+						<parameters>
+							<parameter>
+								<qualifier>material</qualifier>
+								<value>17607A01</value>
+								<description/>
+							</parameter>
+							<parameter>
+								<qualifier>plantCode</qualifier>
+								<value>MUO</value>
+								<description/>
+							</parameter>
+						</parameters>
+					</item>
+				</items>
+				<station id = "187527" type = "loading">
+					<avis/>
+					<description/>
+					<company_name>Bäckerle GmbH</company_name>
+					<shipper_location_number/>
+					<address>Feuerbachstr 50</address>
+					<zip>70469</zip>
+					<city>Stuttgart</city>
+					<region/>
+					<country_id>DE</country_id>
+					<loading_name/>
+					<loadingramp/>
+					<from_date>2020-01-08</from_date>
+					<from_time>00:00:00</from_time>
+					<until_date>2020-01-08</until_date>
+					<until_time>00:00:00</until_time>
+					<fixed_date_loading>2020-01-08</fixed_date_loading>
+					<transportunit_name/>
+					<transportunit_count>0</transportunit_count>
+					<transportunit_pileable>false</transportunit_pileable>
+					<comment/>
+					<comment_plain_text/>
+				</station>
+				<station id = "115100" type = "unloading">
+					<avis/>
+					<description/>
+					<company_name>AST PLASTIC PACKAGING BENELUX BVBA</company_name>
+					<shipper_location_number/>
+					<address>Schleifmühleweg 36</address>
+					<zip>72070</zip>
+					<city>Tübingen</city>
+					<region>01</region>
+					<country_id>DE</country_id>
+					<loading_name/>
+					<loadingramp/>
+					<from_date>2020-01-10</from_date>
+					<from_time>00:00:00</from_time>
+					<until_date>2020-01-10</until_date>
+					<until_time>00:00:00</until_time>
+					<fixed_date_unloading>2020-01-10</fixed_date_unloading>
+					<transportunit_name/>
+					<transportunit_count>0</transportunit_count>
+					<transportunit_pileable>false</transportunit_pileable>
+					<comment/>
+					<comment_plain_text/>
+				</station>
+				<parameters>
+					<parameter>
+						<qualifier>soldTo</qualifier>
+						<value>0000202266</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>salesorderNumber</qualifier>
+						<value>5010036010</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>purchaseOrderNumber</qualifier>
+						<value>47B841FH/1</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>shipmentType</qualifier>
+						<value>Z011</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>shippingCondition</qualifier>
+						<value>TL</value>
+						<description/>
+					</parameter>
+					<parameter>
+						<qualifier>shippingType</qualifier>
+						<value>A4 - Quadratisch</value>
+						<description>shippingType</description>
+					</parameter>
+				</parameters>
+			</shipment>
+		</shipments>
+		<bookings/>
+	</tour>
+</tisys>
