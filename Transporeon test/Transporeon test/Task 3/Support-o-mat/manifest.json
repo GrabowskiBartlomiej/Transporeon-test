@@ -1,0 +1,42 @@
+{
+	
+"manifest_version": 2,
+	"name": "Support-o-mat",
+	"version": "1.0.0",
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"<all_urls>"
+	],
+	"browser_action": {
+		"default_icon": "icons/icon.png",
+		"default_popup": "html/popup.html"
+	},
+	"background": {
+		"persistent": true,
+		"scripts": ["js/background.js"]
+	},
+	"icons": {
+		"32": "icons/icon.png",
+		"48": "icons/icon.png",
+		"96": "icons/icon.png"
+	},
+	
+	"content_scripts": [{
+	"matches": ["<all_urls>"],
+	"js": [
+		"js/util.js",
+		"js/popup.js",
+		"js/content.js"
+		]
+	},{
+		"matches": ["*://*.google.de/"],
+		"js": ["js/task1&2.js"]
+	},{
+		"matches": ["*://*.transporeon.com/*"],
+		"js": ["js/task3.js"]
+	},{
+		"matches": ["*://*.youtube.com/*"],
+		"js": ["js/task4.js"]
+	}]
+}
