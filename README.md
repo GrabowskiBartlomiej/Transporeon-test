@@ -5,7 +5,7 @@
   * Consists in creating an XSL transformation file which would transform xml file into a new one by extracting only essential informations as requested by the client
 
 
-* Test2:
+* Test 2:
 
   * task 1 & 2: create an add on which would automatically change background color when on https://www.google.de and after 20 secs hides google image over the search bar
 
